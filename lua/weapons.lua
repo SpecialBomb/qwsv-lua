@@ -555,7 +555,7 @@ end
 
 
 function GrenadeExplode()
-    if self.voided > 0 then
+    if self.voided ~= 0 then
         return
     end
     self.voided = 1
